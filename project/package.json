@@ -7,10 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "add-words": "node scripts/add-words.js",
+    "import-csv": "node scripts/import-from-csv.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.53.0",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
